@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Reaction tester</title>
+        <style>
+            #shape{
+                    width: 200px;
+                    height: 200px;
+                     background-color: red;
+                     display: none;
+                     position: relative;
+
+                    }
+        </style>
+    </head>
+    <body>
+        <p>Your time:<span id="timeTaken"></span></p>
+        <div id="shape"></div>
+        <script>
+            var start = new Date().getTime();
+            function makeshapeappear(){
+                var top=Math.random()*400;
+                var left=Math.random()*400;
+                document.getElementById("shape").style.top=top+"px";
+                document.getElementById("shape").style.left=left+"px";
+                document.getElementById("shape").style.dsiplay = "block";
+                start = new Date().getTime();
+            }
+            function appearafterdelay(){
+                setTimeout(makeshapeappear,Math.random()*2000);   
+            }
+            appearafterdelay();
+               document.getElementById("shape").onclick = function() {
+               document.getElementById("shape").style.display = "none";
+                var end =new Date().getTime();
+                var timeTaken =(end-start)/1000;
+                document.getElementById("timeTaken").innerHTML=timeTaken+"s"; 
+            appearafterdelay();
+            }
+        </script>
+    </body>
+</html>

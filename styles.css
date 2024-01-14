@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.nav-bar{
+    box-shadow: 1px 1px 10px 0px gray;
+}
+.nav-bar li{
+    color: #53e57f;
+    /* font-weight: bold; */
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.brochure{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    text-align: center;
+    margin: 5%;
+}
+
+.card{
+    font-size: 70px;
+    margin: 0px 0px;
+    font-family: sans-serif;
+    font-weight: 1100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(230, 223, 223);
+    align-content: center;
+    padding-right: 50px;
+}
+.card div h1{
+    margin: 10px 0px 0px 0px;
+    padding: 40px 50px 0px 0px;
+}
+.card img{
+    height: 90px;
+}
+.card div img{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 50%;
+    bottom: 50px;
+}
+.para{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    position: relative;
+    bottom: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #212529;
+}
+a p{
+    text-align: center;
+    text-decoration: none;
+    color:#212529;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+.comm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: sans-serif;
+}
+.comm h3{
+    color: gray;
+    font-style: italic;
+}
+.comm p{
+    font-weight: 600;
+    float: right;
+    padding-right: 70px;
+    position: relative;
+    bottom: 13px;
+}
+.box2{
+    width: 300px;
+    border: 3px solid rgb(241, 238, 238);
+    padding-left: 10px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 10px 5px 15px gray;
+}
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    background-color: #53e57f;
+    border: 3px solid rgb(241, 238, 238);    
+    justify-content: space-around;
+}
+.footer-main li{
+    list-style: none;
+}
