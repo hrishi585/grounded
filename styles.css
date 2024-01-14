@@ -1,7 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Poppins;
+    background-color: #e9eceeea;
+}
+.nav-bar li{
+    font-family: Poppins;
 }
 .nav-bar ul{
     list-style: none;
@@ -10,14 +14,28 @@ body{
     justify-content: space-evenly;
     align-items: center;
 } 
+.button a{
+    color: aliceblue;
+}
+.button{
+    border: solid;
+}
 .nav-bar{
-    box-shadow: 1px 1px 10px 0px gray;
+    background-color: rgb(1,55,87);
+    padding: 0;
+    margin-top: -1%;
 }
 .nav-bar li{
+    margin: auto;
+    padding: 20px;
     color: #53e57f;
     /* font-weight: bold; */
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
+}
+.nav-bar li:hover{
+    background-color: rgb(125,225,154);
+    color: rgb(1,55,87);
 }
 .brochure{
     display: flex;
@@ -27,7 +45,10 @@ body{
     text-align: center;
     margin: 5%;
 }
-
+.heading{
+    text-align: center;
+    margin-bottom: 5%;
+}
 .card{
     font-size: 70px;
     margin: 0px 0px;
@@ -36,7 +57,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    color: rgb(230, 223, 223);
+    color: rgb(175, 174, 174);
     align-content: center;
     padding-right: 50px;
 }
@@ -68,6 +89,8 @@ body{
     margin-top: 0px;
     margin-bottom: 30px;
     color: #212529;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 a p{
     text-align: center;
@@ -77,6 +100,26 @@ a p{
     font-size: 19px;
     font-weight: 500;
 }
+.triad ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.triad li{
+    border: solid;
+    border-radius: 5%;
+    padding: 3%;
+} 
+.triad img{
+    height: 200px;
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+
 .comm{
     display: flex;
     flex-direction: row;
@@ -97,14 +140,16 @@ a p{
     bottom: 13px;
 }
 .box2{
-    width: 300px;
-    border: 3px solid rgb(241, 238, 238);
+    /* width:  */
+    /* border: 3px solid rgb(241, 238, 238); */
     padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 30px;
     border-radius: 15px;
     margin-bottom: 30px;
     box-shadow: 10px 5px 15px gray;
 }
+
 .footer-main{
     display: flex;
     flex-direction: row;
